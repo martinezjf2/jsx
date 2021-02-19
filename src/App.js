@@ -6,7 +6,7 @@ export default function App() {
     const buttonText = 'Click Me!'
     return (
         <div>
-            <label className="label" for="name">
+            <label className="label" htmlFor="name">
                 Enter Name:
             </label>
             <input type="text" id="name" />
