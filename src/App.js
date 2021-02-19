@@ -4,7 +4,11 @@ import React from "react";
 export default function App() {
     return (
         <div>
-            <h1>Hello World!</h1>
+            <label className="label" for="name">
+                Enter Name:
+            </label>
+            <input type="text" id="name" />
+            <button style={{backgroundColor: 'blue', color: 'white'}}>Submit</button>
         </div>
     )
 }
